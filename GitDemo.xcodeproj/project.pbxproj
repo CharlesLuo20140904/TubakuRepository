@@ -15,6 +15,7 @@
 		E15026EE1D11648600878237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15026EC1D11648600878237 /* LaunchScreen.storyboard */; };
 		E15026F91D11648600878237 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15026F81D11648600878237 /* GitDemoTests.m */; };
 		E15027041D11648700878237 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15027031D11648700878237 /* GitDemoUITests.m */; };
+		E15027131D11654900878237 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E15027121D11654900878237 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E15026FF1D11648700878237 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15027031D11648700878237 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		E15027051D11648700878237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15027111D11654900878237 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E15027121D11654900878237 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		E15026DD1D11648500878237 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E15027111D11654900878237 /* TestViewController.h */,
+				E15027121D11654900878237 /* TestViewController.m */,
 				E15026E11D11648500878237 /* AppDelegate.h */,
 				E15026E21D11648500878237 /* AppDelegate.m */,
 				E15026E41D11648600878237 /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				E15026E61D11648600878237 /* ViewController.m in Sources */,
 				E15026E31D11648500878237 /* AppDelegate.m in Sources */,
+				E15027131D11654900878237 /* TestViewController.m in Sources */,
 				E15026E01D11648500878237 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
